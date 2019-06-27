@@ -7,7 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
     @RequestMapping(value = "/")
-    public String showGreeting() {
+    public String showGreeting() throws InterruptedException {
+        System.out.println("Первое обращение");
+        Thread.sleep(5000000);
+        System.out.println("Второе обращение");
         return "Hello from usually WebApp!!!";
     }
 
