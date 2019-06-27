@@ -8,10 +8,12 @@ public class MainController {
 
     @RequestMapping(value = "/")
     public String showGreeting() throws InterruptedException {
-        System.out.println("Первое обращение");
-        Thread.sleep(5000000);
-        System.out.println("Второе обращение");
-        return "Hello from usually WebApp!!!";
+
+        double rnd = Math.random();
+
+        //System.out.println("Первое обращение " + rnd);
+        Thread.sleep(10000);
+        return "Hello from usually WebApp!!! " + rnd;
     }
 
 }
