@@ -12,7 +12,7 @@ public class MainController {
         double rnd = Math.random();
 
         //System.out.println("Первое обращение " + rnd);
-        Thread.sleep(10000);
+//        Thread.sleep(10000);
         return "Hello from usually WebApp!!! " + rnd;
     }
 
