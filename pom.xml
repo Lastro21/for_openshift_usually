@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>app</artifactId>
     <version>meta</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>for_openshift_usually</name>
     <description>Demo project for Spring Boot</description>
 
