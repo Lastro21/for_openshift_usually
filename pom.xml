@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>app</artifactId>
     <version>meta</version>
     <packaging>war</packaging>
     <name>for_openshift_usually</name>
